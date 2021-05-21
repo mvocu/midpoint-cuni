@@ -21,15 +21,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>midpoint-overlay-example</artifactId>
-    <version>4.4-SNAPSHOT</version>
+    <artifactId>midpoint-cuni</artifactId>
+    <version>4.3.1</version>
     <packaging>war</packaging>
 
-    <name>midPoint Overlay Project</name>
-    <description>Example midPoint overlay project</description>
+    <name>midPoint CUNI Overlay</name>
+    <description>CUNI midPoint overlay project</description>
 
     <properties>
-        <midpoint.version>4.4-SNAPSHOT</midpoint.version>
+        <midpoint.version>4.3.1</midpoint.version>
 
         <java.version>11</java.version>
         <project.source.version>${java.version}</project.source.version>
