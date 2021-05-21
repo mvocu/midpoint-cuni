@@ -25,8 +25,8 @@
     <version>4.5-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>midPoint Overlay Project</name>
-    <description>Example midPoint overlay project</description>
+    <name>midPoint CUNI Overlay</name>
+    <description>CUNI midPoint overlay project</description>
 
     <properties>
         <midpoint.version>${project.version}</midpoint.version>
