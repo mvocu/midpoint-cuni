@@ -20,10 +20,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>midpoint-overlay-example</artifactId>
-    <version>4.5-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <groupId>cz.cuni</groupId>
+    <artifactId>midpoint</artifactId>
+    <version>4.5</version>
+    <packaging>jar</packaging>
 
     <name>midPoint CUNI Overlay</name>
     <description>CUNI midPoint overlay project</description>
@@ -31,7 +31,7 @@
     <properties>
         <midpoint.version>${project.version}</midpoint.version>
 
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <project.source.version>${java.version}</project.source.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -107,24 +107,29 @@
         <repository>
             <id>evolveum</id>
             <name>Evolveum Public Releases</name>
-            <url>http://nexus.evolveum.com/nexus/content/groups/public</url>
+            <url>https://nexus.evolveum.com/nexus/content/groups/public</url>
         </repository>
         <repository>
             <id>evolveum-snapshots</id>
             <name>Evolveum Snapshots</name>
-            <url>http://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
+            <url>https://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+                <id>central maven repo</id>
+                <name>central maven repo https</name>
+                <url>https://repo.maven.apache.org/maven2</url>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
             <id>evolveum</id>
             <name>Evolveum Public Releases</name>
-            <url>http://nexus.evolveum.com/nexus/content/groups/public</url>
+            <url>https://nexus.evolveum.com/nexus/content/groups/public</url>
         </pluginRepository>
         <pluginRepository>
             <id>evolveum-snapshots</id>
             <name>Evolveum Snapshots</name>
-            <url>http://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
+            <url>https://nexus.evolveum.com/nexus/content/repositories/snapshots/</url>
         </pluginRepository>
     </pluginRepositories>
 
