@@ -22,7 +22,7 @@
 
     <groupId>cz.cuni</groupId>
     <artifactId>midpoint</artifactId>
-    <version>4.5</version>
+    <version>4.6</version>
     <packaging>jar</packaging>
 
     <name>midPoint CUNI Overlay</name>
@@ -65,15 +65,8 @@
             <groupId>com.evolveum.midpoint.gui</groupId>
             <artifactId>admin-gui</artifactId>
             <version>${midpoint.version}</version>
-            <type>war</type>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.evolveum.midpoint.gui</groupId>
-            <artifactId>admin-gui</artifactId>
-            <version>${midpoint.version}</version>
             <type>jar</type>
-            <classifier>classes</classifier>
+            <scope>runtime</scope>
         </dependency>
 
         <!--
